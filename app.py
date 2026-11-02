@@ -1,3 +1,4 @@
+from algorithms import brute_force
 import matplotlib.pyplot as plt
 import streamlit as st
 import random
@@ -39,3 +40,12 @@ def draw_static_points(points):
 
 fig = draw_static_points(st.session_state.points)
 plot_placeholder.pyplot(fig)
+
+@app.route('/solve/brute', methods=['POST'])
+def solve_brute():
+    data = request.json
+    points = data.get('points', [])
+    if len(points) < 2:
+        return jsonify({"steps": []})
+    steps = brute_force(points)
+    return jsonify({"steps": steps})
