@@ -11,7 +11,7 @@ A aplicação permite adicionar pontos manualmente em um canvas ou gerar pontos 
 - **Dividir e Conquistar**, com complexidade `O(n log n)`.
 Durante a execução, a aplicação destaca as comparações realizadas, as divisões do conjunto de pontos e o par de pontos mais próximo encontrado.
 O objetivo é demonstrar visualmente a diferença entre uma abordagem tradicional e uma abordagem baseada na técnica de dividir e conquistar.
-[Clique aqui para assistir ao vídeo de apresentação do projeto]()
+[Clique aqui para assistir ao vídeo de apresentação do projeto](https://youtu.be/Rfr-yE8ll9E)
 ## Screenshots
 ![Print-1](prints/print1.png)
 ![Print-2](prints/print2.png)
@@ -19,7 +19,6 @@ O objetivo é demonstrar visualmente a diferença entre uma abordagem tradiciona
 ![Print-4](prints/print4.png)
 ![Print-5](prints/print5.png)
 ![Print-6](prints/print6.png)
-![Print-7](prints/print7.png)
 ## Instalação
 **Linguagem:** Python 3.10 ou superior
 **Bibliotecas utilizadas:**
